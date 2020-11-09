@@ -3,3 +3,7 @@ This model showcases how to evaluate customer satisfaction from online reviews a
 
 
 ![image](https://user-images.githubusercontent.com/25379742/98488499-8eb81700-21f7-11eb-9fe6-abd1cd100766.png)
+
+This data is readily available on Amazon reviews. For this project, the Electronics dataset is used but you can use any data which encopasses similar user sentiments. The following code extracts a user-defined number of records from the electronics reviews collection, scans for null values, and creates a new dataframe for the columns of interest.
+
+Reviews are scaled to Net Promoter Scores with the following assumptions: 5 stars equates to a promoter, 4 stars is neutral, and 1-3 stars is a detractor.
